@@ -11,8 +11,10 @@ paige:
     }
 ---
 
+
+
 <div style="text-align: center; margin-top: 3em;">
-    <img src="/images/dsnett.jpg" alt="">
+    <img src="/images/dsnett.jpg" alt="My Image Alt Text" style="max-width:100%; height:auto;">
 </div>
 
 
