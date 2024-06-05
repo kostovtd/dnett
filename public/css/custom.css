@@ -1,0 +1,17 @@
+/* Ensure the body or container does not allow horizontal scrolling */
+body {
+    overflow-x: hidden;
+}
+
+/* Prevent list items from causing horizontal scrolling */
+ul, ol {
+    overflow-x: hidden;
+    white-space: normal; /* Ensure text wraps within the container */
+    word-wrap: break-word; /* Break words that are too long */
+    word-break: break-word; /* Break words that are too long */
+}
+
+/* Additional styling for better appearance (optional) */
+ul, ol {
+    padding-left: 1.5rem; /* Adjust padding as necessary */
+}

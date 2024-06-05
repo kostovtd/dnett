@@ -1,0 +1,49 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+copyright = "© Will Faught"
+
+[params.paige]
+color_scheme = "light"
+external_link_new_tab = true
+style = "#paige-content { width: 66ch; }"
+
+[params.paige.menu]
+style = "pills"
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
+
+[languages.en]
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "home"
+name = "HOME"
+url = "/"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "who"
+name = "WHO ARE WE"
+url = "/who/"
+weight = 20
+
+[[languages.en.menu.main]]
+identifier = "interests"
+name = "AREAS OF INTERESTS"
+url = "/interests/"
+weight = 30
+
+[[languages.en.menu.main]]
+identifier = "contacts"
+name = "CONTACTS"
+url = "/contacts/"
+weight = 40
+
+[languages.en.menu.main.params.paige]
+disabled = false
+
+[markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe = true
+
